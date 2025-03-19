@@ -1,0 +1,6 @@
+@if (userProfile) {
+    <div>
+        <p>Bienvenue, {{ userProfile.firstName }} {{ userProfile.lastName }}</p>
+        <button (click)="logOut()">Déconnexion</button>
+    </div>
+}
